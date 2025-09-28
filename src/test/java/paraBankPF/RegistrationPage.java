@@ -11,8 +11,7 @@ public class RegistrationPage {
     public RegistrationPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
-        System.out.println("this is mesbah");
-        // hi This is mesbah 
+        
     }
     @FindBy(linkText = "Register")
     WebElement registerLink;
